@@ -73,6 +73,14 @@ header nav a:hover{
 header .logo{
   padding-block:1rem;
   user-select:none;
+  display:flex;
+  align-items:center;
+}
+
+header .logo img{
+  height:3rem;
+  transform:translateY(.2rem);
+  padding-right:.2rem;
 }
 
 main{
@@ -92,6 +100,9 @@ section.hero{
   animation-delay:100ms;
   animation-fill-mode:forwards;
   opacity:0;
+}
+
+section.hero > .wrapper{
   padding-block:0;
 }
 
